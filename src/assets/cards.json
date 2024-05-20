@@ -1,0 +1,138 @@
+{
+  "gobelins": [
+    {
+      "nom": "Lanciers Gobelins",
+      "type": "Troupe",
+      "ptsDeploiement": 1,
+      "rPointsDeRegiment": 2,
+      "cacTir": "4C",
+      "a": "2",
+      "d": 2,
+      "p": "6+",
+      "capacités": null
+    },
+    {
+      "nom": "Archers Gobelins",
+      "type": "Unité de tir",
+      "ptsDeploiement": 1,
+      "rPointsDeRegiment": 2,
+      "cacTir": "4T",
+      "a": "2",
+      "d": 1,
+      "p": "6+",
+      "capacités": "Tir en mêlée"
+    },
+    {
+      "nom": "Shamans Gobelins",
+      "type": "Troupe",
+      "ptsDeploiement": 1,
+      "rPointsDeRegiment": 1,
+      "cacTir": "1T",
+      "a": "3",
+      "d": 1,
+      "p": "6+",
+      "capacités": "Magie"
+    },
+    {
+      "nom": "Chevaucheurs de Skrans Gobelins",
+      "type": "Cavalerie",
+      "ptsDeploiement": 1,
+      "rPointsDeRegiment": 2,
+      "cacTir": "3C",
+      "a": "2",
+      "d": 1,
+      "p": "6+",
+      "capacités": null
+    },
+    {
+      "nom": "Trolls",
+      "type": "Elite",
+      "ptsDeploiement": 4,
+      "rPointsDeRegiment": 3,
+      "cacTir": "2C",
+      "a": "6",
+      "d": 3,
+      "p": "2+",
+      "capacités": "Trollitude"
+    },
+    {
+      "nom": "Bande du Sef",
+      "type": "Elite",
+      "ptsDeploiement": 3,
+      "rPointsDeRegiment": 2,
+      "cacTir": "3C",
+      "a": "3",
+      "d": 3,
+      "p": "5+",
+      "capacités": null
+    }
+  ],
+  "sephosi": [
+    {
+      "nom": "Lanciers Sephosiens",
+      "type": "Troupe",
+      "ptsDeploiement": 3,
+      "rPointsDeRegiment": 3,
+      "cacTir": "2C",
+      "a": "3",
+      "d": 4,
+      "p": "3+",
+      "capacités": "Repli stratégique"
+    },
+    {
+      "nom": "Arbalétriers Sephosiens",
+      "type": "Unité de tir",
+      "ptsDeploiement": 2,
+      "rPointsDeRegiment": 1,
+      "cacTir": "2C",
+      "a": "3",
+      "d": 2,
+      "p": "5+",
+      "capacités": null
+    },
+    {
+      "nom": "Cavalerie lourde Sephosienne",
+      "type": "Cavalerie",
+      "ptsDeploiement": 2,
+      "rPointsDeRegiment": 2,
+      "cacTir": "2C",
+      "a": "3",
+      "d": 3,
+      "p": "4+",
+      "capacités": "Charge puissante"
+    },
+    {
+      "nom": "Baliste Sephosiennes",
+      "type": "Artillerie",
+      "ptsDeploiement": 2,
+      "rPointsDeRegiment": 1,
+      "cacTir": "1C",
+      "a": "6",
+      "d": 1,
+      "p": "6+",
+      "capacités": null
+    },
+    {
+      "nom": "Anges Protecteurs de la Sephosi",
+      "type": "Elite",
+      "ptsDeploiement": 4,
+      "rPointsDeRegiment": 1,
+      "cacTir": "3C",
+      "a": "4",
+      "d": 5,
+      "p": "3+",
+      "capacités": "Vol"
+    },
+    {
+      "nom": "Aides de camp Sephosiens",
+      "type": "Elite",
+      "ptsDeploiement": 2,
+      "rPointsDeRegiment": 1,
+      "cacTir": "0C",
+      "a": "-",
+      "d": 1,
+      "p": "6+",
+      "capacités": "Appui stratégique"
+    }
+  ]
+}

@@ -8,7 +8,7 @@ import { Chat } from "./Chat";
 
 export const Game = () => {
   const { step } = useGameEngine();
-  const [isChatVisible, setIsChatVisible] = useState(true);
+  const [isChatVisible, setIsChatVisible] = useState(false);
 
   const toggleChatVisibility = () => {
     setIsChatVisible(!isChatVisible);
