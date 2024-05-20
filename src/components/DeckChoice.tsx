@@ -3,10 +3,15 @@ import allCards from "../assets/cards.json";
 
 import { Card, CardData } from "./Card";
 
+type AllCards = {
+  gobelins: CardData[];
+  sephosi: CardData[];
+};
+
 export const DeckChoice = () => {
   const me = myPlayer();
 
-  const faction = me?.getState("faction");
+  const faction = me?.getState("faction") as keyof AllCards;
   console.log(faction);
   const cards: CardData[] = allCards[faction];
 

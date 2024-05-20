@@ -4,11 +4,11 @@ export type CardData = {
   ptsDeploiement: number;
   rPointsDeRegiment: number;
   cacTir: string;
-  a: number;
+  a: string; // 'a' is a string in your JSON
   d: number;
   p: string;
-  capacités?: string;
-  imgPath: string;
+  capacités?: string | null; // Capacités can be a string or null
+  imgPath?: string; // Optional field for image path
 };
 
 export const Card = ({ data }: { data: CardData }) => {
